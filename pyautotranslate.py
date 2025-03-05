@@ -72,7 +72,7 @@ def _translate_to_lang(file_path: str, lang: str):
         code, system_prompt=f"You are an AI interpreter, so people give you code and you just translate it into {lang}, the code is kinda different or even can be plain english or kinda psuedo code, Any kind. But you understand what the code means, then you translate to {lang} only.")
 
     if converted_code and "```" in converted_code:
-        code_start = converted_code.find("```") + len(lang)
+        code_start = converted_code.find("```") + len(lang) + 3
         code_end = converted_code.find("```", code_start)
         code = converted_code[code_start:code_end]
     else:
