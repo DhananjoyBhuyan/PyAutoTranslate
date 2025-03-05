@@ -259,7 +259,7 @@ And then we have the file named "pyautotranslate.py", you just need to download 
 11. Copy the token.
 12. Insert the token into line 40 in the pyautotranslate.py file, 
 ```python
-40 | token="Your_HuggingFace_API_token"
+41 | token="hugging face API token"
 ```
 
 
