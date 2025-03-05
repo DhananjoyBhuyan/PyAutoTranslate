@@ -252,16 +252,20 @@ You can simply copy paste the code from [This link](https://raw.githubuserconten
 8. Choose set mode to "fine-grained".
 9. Set a token name.
 10. Under "User permissions" section, you need to check 4 permissions, those are:
-        - Read access to contents of all repos under your personal namespace
-        - Read access to contents of all public gated repos you can access
-        Under the name "Repositories"
-        And :
-        - Make calls to inference providers
-        - Make calls to Inference Endpoints
-        Under the name "Inference."
+
+    - Read access to contents of all repos under your personal namespace
+    - Read access to contents of all public gated repos you can access
+    
+    Under the name "Repositories"
+    And :
+
+    - Make calls to inference providers
+    - Make calls to Inference Endpoints
+    
+    Under the name "Inference."
         
-11. Copy the token.
-12. Insert the token into line 41 in the pyautotranslate.py file, 
+12. Copy the token.
+13. Insert the token into line 41 in the pyautotranslate.py file, 
 ```python
 41 | token="hugging face API token"
 ```
