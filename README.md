@@ -233,7 +233,11 @@ pip install huggingface_hub
 ```  
 
 And then we have the file named "pyautotranslate.py", you just need to download it from here.
-[Download file](https://raw.githubusercontent.com/DhananjoyBhuyan/PyAutoTranslate/refs/heads/main/pyautotranslate.py)
+
+## OR
+You can simply copy paste the code from [This link](https://raw.githubusercontent.com/DhananjoyBhuyan/PyAutoTranslate/refs/heads/main/pyautotranslate.py)
+
+## **Make sure that you copied and pasted the code into a new file named "pyautotranslate.py"**
 
 
 # Small setup needed:
@@ -257,7 +261,7 @@ And then we have the file named "pyautotranslate.py", you just need to download 
         Under the name "Inference."
         
 11. Copy the token.
-12. Insert the token into line 40 in the pyautotranslate.py file, 
+12. Insert the token into line 41 in the pyautotranslate.py file, 
 ```python
 41 | token="hugging face API token"
 ```
