@@ -23,6 +23,7 @@ define y = 20
 
 print("Sum is", x + y)
 """
+execute_code()
 ```  
 
 And instantly getting the equivalent C, html, Java or any language code—without manually converting anything.  
