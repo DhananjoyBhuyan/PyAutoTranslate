@@ -7,7 +7,7 @@ Created on Sat Feb  8 19:38:58 2025
 """
 import pyautotranslate
 
-pyautotranslate.init("c_testing", "c", "c")
+pyautotranslate.init("c_testing", ".c", "c")
 
 """pycode
 define A = integer_array([
