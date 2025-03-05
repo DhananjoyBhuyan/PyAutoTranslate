@@ -232,8 +232,8 @@ Make sure you have **Python 3** installed. Then, install the required dependency
 pip install huggingface_hub
 ```  
 
-And then we have the file named "pyautotranslate.py", you just need to download it from this here.
-
+And then we have the file named "pyautotranslate.py", you just need to download it from here.
+[Download file](https://raw.githubusercontent.com/DhananjoyBhuyan/PyAutoTranslate/refs/heads/main/pyautotranslate.py)
 
 
 # Small setup needed:
