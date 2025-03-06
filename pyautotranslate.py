@@ -86,8 +86,11 @@ def _save_and_open_code(code: str, file_name: str, extension: str, lang: str):
         f.write(code)
     path = os.path.abspath(f"./{file_name}.{extension}")
     if lang.strip() == "html":
-        webbrowser.get("google-chrome").open(f"file://{path}"
-                                             )
+        try:
+            webbrowser.get("google-chrome").open(f"file://{path}"
+                                                )
+        except:
+            webbrowser.open(f"file://{path}")
 
 
 LANG = None
