@@ -263,6 +263,8 @@ You can simply copy paste the code from [This link](https://raw.githubuserconten
     - Make calls to Inference Endpoints
     
     Under the name "Inference."
+
+11. scroll down to end. Then click on Creat Token button. 
         
 12. Copy the token.
 13. Insert the token into line 41 in the pyautotranslate.py file, 
