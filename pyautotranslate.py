@@ -90,7 +90,8 @@ def _save_and_open_code(code: str, file_name: str, extension: str, lang: str):
             webbrowser.get("google-chrome").open(f"file://{path}"
                                                 )
         except:
-            webbrowser.open(f"file://{path}")
+            webbrowser.open(f"file://{path}"
+                           )
 
 
 LANG = None
