@@ -57,7 +57,7 @@ Note_for_the_interpreter = "Relpace the value of full_form with the actual full 
 
 execute_code()
 ```
-In the last line of the above code you can see that a "Note_for_the_interpreter" is given so the interpreter read and take that as a special note for him so here's the output:-
+In the last line of the above code you can see that a "Note_for_the_interpreter" is given so the interpreter will read and take that as a special note for him so here's the output:-
 
 ```php
 
