@@ -57,7 +57,8 @@ Note_for_the_interpreter = "Relpace the value of full_form with the actual full 
 
 execute_code()
 ```
-The output was:-
+In the last line of the above code you can see that a "Note_for_the_interpreter" is given so the interpreter read and take that as a special note for him so here's the output:-
+
 ```php
 
 <?php
@@ -71,6 +72,9 @@ if ($php_is_a_markup_language == true) {
 echo "Full form of php is: " . $full_form;
 ?>
 ```
+
+Without the Note_for_the_interpreter the interpreter would just translate the code and the value of full_form would have been "The full form of php" instead of the real full form.
+
 ---
 
 # **🔥 Why Use PyAutoTranslate?**  
