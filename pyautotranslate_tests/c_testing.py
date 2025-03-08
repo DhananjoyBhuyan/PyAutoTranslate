@@ -9,6 +9,7 @@ import pyautotranslate
 
 pyautotranslate.init("c_testing", ".c", "c")
 
+
 """pycode
 define A = integer_array([
     ["item1", "item2"],
