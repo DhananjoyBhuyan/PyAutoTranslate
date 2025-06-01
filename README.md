@@ -4,6 +4,8 @@
 Tired of writing code in different programming languages? And remembering their very hard syntaxes?? PyAutoTranslate is here to change the game. This powerful tool **converts pseudo-code, structured English, or abstract syntax or your custom code in custom syntax into real, executable programming languages**. Whether you're a beginner, a coder experimenting with ideas, or just someone who wants to see code in different languages effortlessly—PyAutoTranslate has you covered!  
 
 ---
+##### Special Thanks to [Dev Bhuyan](https://github.com/DevBhuyan) for inspiring me to use AI for this project.
+---
 
 # **🤖 What is PyAutoTranslate?**  
 
