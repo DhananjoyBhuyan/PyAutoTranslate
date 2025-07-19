@@ -37,8 +37,8 @@ def _hfAsk(prompt: str = "hello",
     }
 
     client = InferenceClient(
-        provider='featherless-ai',
-        model="mistralai/Mistral-7B-Instruct-v0.2",
+        provider='nebius',
+        model="Qwen/Qwen3-4B",
         token="hugging face API token",
     )
     response_text = []
