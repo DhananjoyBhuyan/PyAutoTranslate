@@ -318,7 +318,7 @@ You can simply copy paste the code from [This link](https://raw.githubuserconten
 12. Copy the token.
 13. Insert the token into line 41 in the pyautotranslate.py file, 
 ```python
-41 | token="hugging face API token"
+42 | token="hugging face API token"
 ```
 
 
