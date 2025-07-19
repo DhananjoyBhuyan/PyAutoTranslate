@@ -39,7 +39,7 @@ def _hfAsk(prompt: str = "hello",
     client = InferenceClient(
         provider='novita',
         model="deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
-        token='Your token here.',
+        token="hugging face API token",
     )
     response_text = []
     for message in client.chat_completion(
