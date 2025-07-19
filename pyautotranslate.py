@@ -37,8 +37,9 @@ def _hfAsk(prompt: str = "hello",
     }
 
     client = InferenceClient(
-        model="Qwen/Qwen2.5-Coder-32B-Instruct",
-        token='hugging face API token',
+        provider='novita',
+        model="deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+        token='Your token here.',
     )
     response_text = []
     for message in client.chat_completion(
@@ -46,7 +47,8 @@ def _hfAsk(prompt: str = "hello",
         **params
     ):
         token_content = message.choices[0].delta.content
-        response_text.append(token_content)
+        if token_content:
+            response_text.append(token_content)
 
     response_text = "".join(response_text)
     return response_text
